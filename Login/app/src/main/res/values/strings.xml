@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="company_name">DUROL</string>
+    <string name="login_tag">Let\'s join us and \nBuild your relationship with others</string>
+
+    <string name="email_hint">Email Id</string>
+    <string name="password_hint">Password</string>
+
+</resources>
