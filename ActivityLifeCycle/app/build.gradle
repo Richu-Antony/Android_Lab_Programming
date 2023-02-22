@@ -11,7 +11,7 @@ android {
         minSdk 23
         targetSdk 33
         versionCode 1
-        versionName "21.02.2023"
+        versionName "22.02.2023"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -28,10 +28,9 @@ android {
     }
     dependenciesInfo {
         includeInApk true
-        includeInBundle true
     }
-    buildToolsVersion '33.0.1'
-    ndkVersion '25.1.8937393'
+    ndkVersion '25.2.9519653'
+    buildToolsVersion '30.0.3'
 }
 
 dependencies {

@@ -11,9 +11,10 @@ android {
         minSdk 23
         targetSdk 33
         versionCode 1
-        versionName "13.02.2023"
+        versionName "22.02.2023"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.debug
     }
 
     buildTypes {
@@ -26,11 +27,16 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    ndkVersion '25.2.9519653'
+    buildToolsVersion '30.0.3'
+
+    dependenciesInfo {
+        includeInApk true
+    }
 }
 
 dependencies {
-
-    implementation 'androidx.appcompat:appcompat:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
@@ -38,5 +44,4 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     implementation 'com.faendir.rhino:rhino-android:1.6.0'
-
 }
