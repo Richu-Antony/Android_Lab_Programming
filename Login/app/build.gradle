@@ -3,17 +3,17 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    namespace 'com.lab.login'
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.rio.login"
-        minSdk 24
-        targetSdk 31
+        applicationId "com.lab.login"
+        minSdk 23
+        targetSdk 33
         versionCode 1
-        versionName "1.0"
+        versionName "23.02.2023"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        signingConfig signingConfigs.debug
     }
 
     buildTypes {
@@ -23,23 +23,21 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility sourceCompatibility
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
-    buildFeatures {
-        viewBinding true
+    dependenciesInfo {
+        includeInApk true
     }
-    namespace 'com.rio.login'
+    buildToolsVersion '30.0.3'
+    ndkVersion '25.2.9519653'
 }
 
 dependencies {
 
-    implementation 'androidx.appcompat:appcompat:1.5.1'
-    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.annotation:annotation:1.5.0'
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'

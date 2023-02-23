@@ -1,4 +1,4 @@
-<resources>\
+<resources>
 
     <!-- Base application theme. -->
     <style name="Theme.Factorial" parent="Theme.Material3.DayNight.NoActionBar">

@@ -16,11 +16,11 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="50dp"
         android:backgroundTint="#00FFFFFF"
+        android:onClick="start"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/grid"
-        android:onClick="start"/>
+        app:srcCompat="@drawable/grid" />
 
     <GridView
         android:id="@+id/Grid"
