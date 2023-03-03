@@ -103,12 +103,77 @@ Selected Project
 # 🌌 Screenshots
 <div style="text-align: center;">
     <img
-    src="Screenshots/ActivityLifeCycle1.png"
+    src="Screenshots/ActivityLifeCycle.png"
     alt="Alt text"
     title="Optional title"
     style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
     <img
-    src="Screenshots/ActivityLifeCycle.png"
+    src="Screenshots/Calculator.png"
+    alt="Alt text"
+    title="Optional title"
+    style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
+    <img
+    src="Screenshots/Factorial1.png"
+    alt="Alt text"
+    title="Optional title"
+    style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
+    <img
+    src="Screenshots/Factorial2.png"
+    alt="Alt text"
+    title="Optional title"
+    style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
+    <img
+    src="Screenshots/GridAdapterAlert1.png"
+    alt="Alt text"
+    title="Optional title"
+    style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
+    <img
+    src="Screenshots/GridAdapterAlert2.png"
+    alt="Alt text"
+    title="Optional title"
+    style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
+    <img
+    src="Screenshots/ListviewImplictIntent.png"
+    alt="Alt text"
+    title="Optional title"
+    style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
+    <img
+    src="Screenshots/Login1.png"
+    alt="Alt text"
+    title="Optional title"
+    style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
+    <img
+    src="Screenshots/Login2.png"
+    alt="Alt text"
+    title="Optional title"
+    style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
+    <img
+    src="Screenshots/MultiplicationTable1.png"
+    alt="Alt text"
+    title="Optional title"
+    style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
+    <img
+    src="Screenshots/MultiplicationTable2.png"
+    alt="Alt text"
+    title="Optional title"
+    style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
+    <img
+    src="Screenshots/SharedPreferences1.png"
+    alt="Alt text"
+    title="Optional title"
+    style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
+    <img
+    src="Screenshots/SharedPreferences2.png"
+    alt="Alt text"
+    title="Optional title"
+    style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
+    <img
+    src="Screenshots/SimpleCalculator.png"
+    alt="Alt text"
+    title="Optional title"
+    style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
+    <img
+    src="Screenshots/Spinner.png"
     alt="Alt text"
     title="Optional title"
     style="display: inline-block; margin: 0 auto; max-width: 500px">&nbsp;
